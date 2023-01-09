@@ -49,69 +49,69 @@ cmake_ninja_workdir = C$:/StudentFiles/CLionProjects/GD/cmake-build-debug/
 
 build cmake_object_order_depends_target_GD: phony || CMakeFiles/GD.dir
 
-build CMakeFiles/GD.dir/main.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/main.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/main.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/main.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\main.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/App.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/App.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/App.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/App.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\App.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\App.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/Level.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/Level.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/Level.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/Level.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\Level.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\Level.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/Player.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/Player.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/Player.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/Player.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\Player.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\Player.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/StateMachine.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/StateMachine.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/StateMachine.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/StateMachine.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\StateMachine.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\StateMachine.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/State.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/State.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/State.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/State.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\State.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\State.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/DrawGroup.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/DrawGroup.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/DrawGroup.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/DrawGroup.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\DrawGroup.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\DrawGroup.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
-build CMakeFiles/GD.dir/LevelState.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/LevelState.cpp || cmake_object_order_depends_target_GD
+build CMakeFiles/GD.dir/src/LevelState.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/LevelState.cpp || cmake_object_order_depends_target_GD
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GD.dir\LevelState.cpp.obj.d
+  DEP_FILE = CMakeFiles\GD.dir\src\LevelState.cpp.obj.d
   FLAGS = -std=c++17 -g
   INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\GD.dir
-  OBJECT_FILE_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
 
 # =============================================================================
@@ -121,7 +121,7 @@ build CMakeFiles/GD.dir/LevelState.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFi
 #############################################
 # Link the executable GD.exe
 
-build GD.exe: CXX_EXECUTABLE_LINKER__GD_Debug CMakeFiles/GD.dir/main.cpp.obj CMakeFiles/GD.dir/App.cpp.obj CMakeFiles/GD.dir/Level.cpp.obj CMakeFiles/GD.dir/Player.cpp.obj CMakeFiles/GD.dir/StateMachine.cpp.obj CMakeFiles/GD.dir/State.cpp.obj CMakeFiles/GD.dir/DrawGroup.cpp.obj CMakeFiles/GD.dir/LevelState.cpp.obj | C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a
+build GD.exe: CXX_EXECUTABLE_LINKER__GD_Debug CMakeFiles/GD.dir/src/main.cpp.obj CMakeFiles/GD.dir/src/App.cpp.obj CMakeFiles/GD.dir/src/Level.cpp.obj CMakeFiles/GD.dir/src/Player.cpp.obj CMakeFiles/GD.dir/src/StateMachine.cpp.obj CMakeFiles/GD.dir/src/State.cpp.obj CMakeFiles/GD.dir/src/DrawGroup.cpp.obj CMakeFiles/GD.dir/src/LevelState.cpp.obj | C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -std=c++17 -g
   LINK_LIBRARIES = C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GD.dir
