@@ -6,10 +6,12 @@
 #define GD_PLAYER_H
 #include <SFML/Graphics.hpp>
 #include "globals.h"
+#include "Level.h"
+#include <algorithm>
 class Player {
 
 public:
-    Player();
+    explicit Player(Level* playerLevelPtr);
     ~Player();
     void managePlayer();
     const sf::Drawable& getPlayerDrawable();
@@ -18,7 +20,14 @@ private:
     sf::Vector2f m_velocity;
     float m_gravity;
     float m_speed;
+    float m_dt;
+    float m_jumpForce;
+    bool m_isOnGround;
     sf::Clock m_clock;
+
+    Level* m_LevelPtr;
+
+    void jump();
 
 };
 

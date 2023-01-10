@@ -5,8 +5,9 @@
 #include "LevelState.h"
 
 
-LevelState::LevelState() {
+LevelState::LevelState() : m_levelOne{levelOne}, m_currentLevelPtr{&m_levelOne}, m_player(m_currentLevelPtr){
     m_stateDrawables.push_back(m_player.getPlayerDrawable());
+    m_stateDrawables.push_back(m_levelOne);
 }
 
 
