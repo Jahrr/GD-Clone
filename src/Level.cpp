@@ -13,6 +13,7 @@ enum BlockTypes{
 
 Level::Level(const LevelLayout& layout) : m_levelLayout{layout}{
     //TODO: Use shared ptr instead of raw pointer
+    int i = 0;
     for(int y = 0; y < layout.size(); y++){
         for(int x = 0; x < layout[y].size(); x++){
 
@@ -24,7 +25,9 @@ Level::Level(const LevelLayout& layout) : m_levelLayout{layout}{
                     block->setOutlineThickness(-3);
                     block->setOutlineColor(sf::Color::White);
                     block->setPosition(float(x) * WORLD_SCALE, float(y) * WORLD_SCALE);
-                    m_level.push_back(block);
+                    m_level.push_back(reinterpret_cast<LevelElement *const>(block));
+                    m_level[i]->setElementType(0);
+                    i++;
                     break;
                 }
                 case SPIKE:{
@@ -44,8 +47,9 @@ Level::Level(const LevelLayout& layout) : m_levelLayout{layout}{
                     spike->setOutlineColor(sf::Color::White);
                     spike->setOutlineThickness(-3);
 
-                    m_level.push_back(spike);
-
+                    m_level.push_back(reinterpret_cast<LevelElement *const>(spike));
+                    m_level[i]->setElementType(1);
+                    i++;
                 }
 
 
@@ -73,6 +77,6 @@ void Level::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     }
 }
 
-const std::vector<sf::Shape*> &Level::getLevel() const {
+const std::vector<LevelElement*> &Level::getLevel() const {
     return m_level;
 }
