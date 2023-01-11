@@ -1,3 +1,0 @@
-C:/StudentFiles/CLionProjects/GD/cmake-build-debug/CMakeFiles/GD.dir
-C:/StudentFiles/CLionProjects/GD/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/StudentFiles/CLionProjects/GD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
