@@ -31,6 +31,7 @@ private:
 
     void jump();
     void die();
+    bool handleCollisionWithObject(LevelElement* collisionObject);
 
 };
 
