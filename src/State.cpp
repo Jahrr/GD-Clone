@@ -15,3 +15,7 @@ const DrawGroup &State::getStateDrawables() {
 void State::addDrawable(const sf::Drawable &drawable) {
     m_stateDrawables.push_back(drawable);
 }
+
+void State::setCurrentWindow(sf::RenderWindow &window) {
+    m_windowPtr = &window;
+}

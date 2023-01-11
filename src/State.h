@@ -18,8 +18,9 @@ public:
 
 protected:
     DrawGroup m_stateDrawables;
+    sf::RenderWindow* m_windowPtr;
     void addDrawable(const sf::Drawable& drawable);
-
+    void setCurrentWindow(sf::RenderWindow& window);
 };
 
 

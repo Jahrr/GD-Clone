@@ -4,7 +4,7 @@
 
 #include "App.h"
 
-App::App() : m_mode(sf::VideoMode::getDesktopMode()), m_event(){
+App::App() : m_mode(sf::VideoMode::getDesktopMode()), m_event(), m_levelState{m_window}{
     m_window.create(m_mode, "Geometry Dash Clone");
     m_window.setVerticalSyncEnabled(true);
     m_stateMachine.pushState(m_levelState);

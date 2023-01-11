@@ -15,6 +15,8 @@ public:
     ~Player();
     void managePlayer();
     const sf::Drawable& getPlayerDrawable();
+    const sf::Transformable& getPlayerTransformable();
+
 private:
     sf::RectangleShape m_playerShape;
     sf::Vector2f m_velocity;
@@ -28,6 +30,7 @@ private:
     Level* m_LevelPtr;
 
     void jump();
+    void die();
 
 };
 

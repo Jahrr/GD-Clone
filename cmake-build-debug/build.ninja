@@ -113,6 +113,14 @@ build CMakeFiles/GD.dir/src/LevelState.cpp.obj: CXX_COMPILER__GD_Debug C$:/Stude
   OBJECT_DIR = CMakeFiles\GD.dir
   OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
 
+build CMakeFiles/GD.dir/src/Camera.cpp.obj: CXX_COMPILER__GD_Debug C$:/StudentFiles/CLionProjects/GD/src/Camera.cpp || cmake_object_order_depends_target_GD
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\GD.dir\src\Camera.cpp.obj.d
+  FLAGS = -std=c++17 -g
+  INCLUDES = -isystem C:/StudentFiles/Student/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\GD.dir
+  OBJECT_FILE_DIR = CMakeFiles\GD.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GD
@@ -121,7 +129,7 @@ build CMakeFiles/GD.dir/src/LevelState.cpp.obj: CXX_COMPILER__GD_Debug C$:/Stude
 #############################################
 # Link the executable GD.exe
 
-build GD.exe: CXX_EXECUTABLE_LINKER__GD_Debug CMakeFiles/GD.dir/src/main.cpp.obj CMakeFiles/GD.dir/src/App.cpp.obj CMakeFiles/GD.dir/src/Level.cpp.obj CMakeFiles/GD.dir/src/Player.cpp.obj CMakeFiles/GD.dir/src/StateMachine.cpp.obj CMakeFiles/GD.dir/src/State.cpp.obj CMakeFiles/GD.dir/src/DrawGroup.cpp.obj CMakeFiles/GD.dir/src/LevelState.cpp.obj | C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a
+build GD.exe: CXX_EXECUTABLE_LINKER__GD_Debug CMakeFiles/GD.dir/src/main.cpp.obj CMakeFiles/GD.dir/src/App.cpp.obj CMakeFiles/GD.dir/src/Level.cpp.obj CMakeFiles/GD.dir/src/Player.cpp.obj CMakeFiles/GD.dir/src/StateMachine.cpp.obj CMakeFiles/GD.dir/src/State.cpp.obj CMakeFiles/GD.dir/src/DrawGroup.cpp.obj CMakeFiles/GD.dir/src/LevelState.cpp.obj CMakeFiles/GD.dir/src/Camera.cpp.obj | C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -std=c++17 -g
   LINK_LIBRARIES = C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/StudentFiles/Student/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/StudentFiles/Student/SFML-2.5.1/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GD.dir

@@ -8,6 +8,7 @@
 #include "Player.h"
 #include "Level.h"
 #include "levels.h"
+#include "Camera.h"
 //TODO: Implement level loader
 //Handle Player<->Level interactions here or in level; Currently handling in player
 //We can switch levels by creating a pointer to the current level.
@@ -16,7 +17,7 @@
 class LevelState : public State{
 
 public:
-    LevelState();
+    LevelState(sf::RenderWindow& window);
 
    void manage() override;
 
@@ -24,7 +25,7 @@ private:
     Level* m_currentLevelPtr;
     Player m_player;
     Level m_levelOne;
-
+    Camera m_playerCamera;
 };
 
 

@@ -10,8 +10,8 @@
 class Level : public sf::Drawable{
 
 public:
-    Level(const LevelLayout& layout);
-    ~Level();
+    explicit Level(const LevelLayout& layout);
+    ~Level() override;
 
     void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 
@@ -19,6 +19,7 @@ private:
     LevelLayout m_levelLayout;
     std::vector<sf::Shape*> m_level;
 public:
+    //Create class LevelElement : public sf::Shape
     const std::vector<sf::Shape*> &getLevel() const;
 
 

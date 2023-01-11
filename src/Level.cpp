@@ -2,6 +2,7 @@
 // Created by 24CRickenbach on 1/9/2023.
 //
 
+#include <iostream>
 #include "Level.h"
 
 enum BlockTypes{
@@ -30,12 +31,15 @@ Level::Level(const LevelLayout& layout) : m_levelLayout{layout}{
                     auto* spike = new sf::ConvexShape(3);
                     float scale = 0.9;
                    // spike->setOrigin(sf::Vector2f(float(WORLD_SCALE)/2.f, float(WORLD_SCALE)/2.f));
+
                     spike->setPoint(0, sf::Vector2f(float(x) * float(WORLD_SCALE) + float(WORLD_SCALE)/2.f,
                                                    float(y) * WORLD_SCALE));
                     spike->setPoint(1, sf::Vector2f(float(x) * float(WORLD_SCALE),
                                                     float(y) * WORLD_SCALE + WORLD_SCALE));
                     spike->setPoint(2, sf::Vector2f(float(x) * float(WORLD_SCALE) + WORLD_SCALE,
                                                     float(y) * WORLD_SCALE + WORLD_SCALE));
+                    std::cout<<spike->getPosition().x << ' '<<spike->getPosition().y<<'\n';
+
                     spike->setFillColor(sf::Color::Black);
                     spike->setOutlineColor(sf::Color::White);
                     spike->setOutlineThickness(-3);
