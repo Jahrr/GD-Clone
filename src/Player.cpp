@@ -30,6 +30,9 @@ void Player::managePlayer() {
             m_velocity.y = 0;
             m_playerShape.setPosition(m_playerShape.getPosition().x, i->getGlobalBounds().top-WORLD_SCALE/2);
             m_isOnGround = true;
+            if(i->getElementType() == 1){
+                die();
+            }
         }if(m_playerShape.getGlobalBounds().intersects(i->getGlobalBounds()) && m_playerShape.getPosition().y >= i->getGlobalBounds().top+WORLD_SCALE/2){
             m_velocity.x = 0;
         }
@@ -49,7 +52,7 @@ void Player::jump() {
 }
 
 void Player::die() {
-
+    exit(0);
 }
 
 const sf::Transformable &Player::getPlayerTransformable() {

@@ -7,6 +7,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "globals.h"
+#include "LevelElement.h"
 class Level : public sf::Drawable{
 
 public:
@@ -17,10 +18,10 @@ public:
 
 private:
     LevelLayout m_levelLayout;
-    std::vector<sf::Shape*> m_level;
+    std::vector<LevelElement*> m_level;
 public:
     //Create class LevelElement : public sf::Shape
-    const std::vector<sf::Shape*> &getLevel() const;
+    const std::vector<LevelElement*> &getLevel() const;
 
 
 };
